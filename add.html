@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h2{
+    font-size:28px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:white;
+}
+
+.hero img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid #0d6efd;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#555;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#084298;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0d6efd;
+}
+
+.about p{
+    text-align:center;
+    line-height:1.8;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.project h3{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h2>My Portfolio</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+
+    <img src="https://via.placeholder.com/170" alt="Profile">
+
+    <h1>Hello, I'm Dnyaneshwari</h1>
+
+    <p>Computer Engineering Student | Learning HTML | Java | AI & ML</p>
+
+    <a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+<section id="about" class="about">
+
+<h2>About Me</h2>
+
+<p>
+Hello! My name is <strong>Dnyaneshwari</strong>. I am a Computer Engineering
+student passionate about Web Development, Java Programming,
+Artificial Intelligence, and Machine Learning.
+
+I enjoy creating websites and software projects while continuously
+learning new technologies.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>My Skills</h2>
+
+<div class="skills">
+
+<div class="skill">
+<h3>HTML</h3>
+<p>Creating responsive web pages.</p>
+</div>
+
+<div class="skill">
+<h3>CSS</h3>
+<p>Designing beautiful websites.</p>
+</div>
+
+<div class="skill">
+<h3>Java</h3>
+<p>Desktop application development.</p>
+</div>
+
+<div class="skill">
+<h3>Git & GitHub</h3>
+<p>Version control and project management.</p>
+</div>
+
+<div class="skill">
+<h3>AI & ML</h3>
+<p>Learning Artificial Intelligence concepts.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>My Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Student Management System</h3>
+<p>
+Java and MySQL based desktop application for managing student records.
+</p>
+</div>
+
+<div class="project">
+<h3>Travel Recommendation System</h3>
+<p>
+AI-based project for recommending tourist destinations.
+</p>
+</div>
+
+<div class="project">
+<h3>Sign Language Recognition</h3>
+<p>
+Machine Learning project to recognize sign language gestures.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Me</h2>
+
+<p>📧 Email: youremail@example.com</p>
+
+<p>📱 Phone: +91 XXXXXXXXXX</p>
+
+<p>📍 Maharashtra, India</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Dnyaneshwari | All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
